@@ -51,6 +51,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CORS_ALLOWED_ORIGINS =[
+    "localhost:3000",
+    ".netlify.app",
+    ".vercel.app"
+]
+
 ROOT_URLCONF = 'djangotest.urls'
 
 TEMPLATES = [
